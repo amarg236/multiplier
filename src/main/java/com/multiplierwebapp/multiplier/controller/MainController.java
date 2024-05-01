@@ -1,16 +1,23 @@
 package com.multiplierwebapp.multiplier.controller;
 
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.multiplierwebapp.multiplier.service.IMultiplierService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1")
 public class MainController {
 
+    @Autowired
+    IMultiplierService multiplierService;
 
-    public String home(){
-        return "Welcome to the Multiplier Web App";
+    @PostMapping("multiply")
+    public String home(@RequestParam("num") int num ){
+        System.out.println(num);
+        return multiplierService.multiplierService(num);
+
+
     }
 
 
