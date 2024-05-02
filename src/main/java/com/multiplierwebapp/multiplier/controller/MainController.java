@@ -20,6 +20,7 @@ public class MainController {
     @Autowired
     IMultiplierService multiplierService;
 
+    @CrossOrigin(origins = "*")
     @PostMapping("multiply")
     public ResponseEntity<MultiplierResponse> home(@RequestParam("num") String num ){
         try{
