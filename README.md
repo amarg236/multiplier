@@ -3,9 +3,9 @@
 - Explore a user-friendly web application designed for number operations. Simply input a number, and witness its journey: it gets doubled, and then its doubled value is squared.
 
 **Prerequisites**
-Java 17
-Maven
-Git
+- Java 17
+- Maven
+- Git
 
 **How to to run the application?**
 
