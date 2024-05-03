@@ -35,7 +35,8 @@ once backend is running, frontend could be cloned from another github repo:
 https://github.com/amarg236/multiplier-front
 
 **Steps to run the frontend app:**
-1. `git clone: https://github.com/amarg236/multiplier-front`
+url : https://github.com/amarg236/multiplier-front
+1. `git clone: git@github.com:amarg236/multiplier-front.git`
 2. `cd multiplier-front`
 3. run commmand : `npm install`
 4. `npm start`
