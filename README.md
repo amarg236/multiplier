@@ -1,5 +1,4 @@
-//add multiplier-app.png image here
-![multiplier-app](https://user-images.githubusercontent.com/11620777/139593013-3b3b3b7b-1b7b-4b7b-8b7b-3b7b3b7b3b7b.png)
+![multiplier-app](https://github.com/amarg236/multiplier/blob/master/multiplier-app.png)
 #Overview:
 - Explore a user-friendly web application designed for number operations. Simply input a number, and witness its journey: it gets doubled, and then its doubled value is squared.
 
